@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="appjpm4everyone.ejemplo_sqlite.RegistroUsuarioActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Registro De Usuarios"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/cmpID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="id"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/cmpNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="nombre"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/cmpTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="telefono"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Registrar Usuario"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:onClick="ClickRegistro"/>
+
+
+
+</LinearLayout>
+

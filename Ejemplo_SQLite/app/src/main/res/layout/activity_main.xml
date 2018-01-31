@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="appjpm4everyone.ejemplo_sqlite.MainActivity">
+
+    <Button
+        android:id="@+id/btn_op_Registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Usuario"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:onClick="Click_Opciones"/>
+
+    <Button
+        android:id="@+id/btn_op_Reg_Mascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Mascota"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:onClick="Click_Opciones"/>
+
+    <Button
+        android:id="@+id/btn_op_Consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Usuario"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:onClick="Click_Opciones"/>
+
+    <Button
+        android:id="@+id/btn_op_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar lista de Usuario usando Spinner"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:onClick="Click_Opciones"/>
+
+    <Button
+        android:id="@+id/btn_op_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar lista de Usuario usando ListView"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:onClick="Click_Opciones"/>
+
+    <Button
+        android:id="@+id/btn_op_List_Mascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Lista Mascota"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:onClick="Click_Opciones"/>
+
+    <Button
+        android:id="@+id/btn_op_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Lista Con RecyclerView"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:onClick="Click_Opciones"/>
+
+
+
+</LinearLayout>
